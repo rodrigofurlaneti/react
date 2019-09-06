@@ -1,0 +1,43 @@
+.usuario-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.usuario-list article{
+    background: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.usuario-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.usuario-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.usuario-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #DA552F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.usuario-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+.usuario-list .actions button:hover{
+    opacity: 0.7;
+}
+.usuario-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
